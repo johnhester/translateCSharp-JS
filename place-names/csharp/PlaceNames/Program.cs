@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PlaceNames
 {
@@ -12,9 +12,16 @@ namespace PlaceNames
         {
             // We must specify the Type of the "names" variable.
             //  It is a "List" that can only contain "strings".
-            List<string> names = new List<string> {
-                "Nashville", "Hong Kong", "The back yard", "Earth",
-                "London", "The mall", "Ryman Auditorium", "The Great Wall of China"
+            List<string> names = new List<string>
+            {
+                "Nashville",
+                "Hong Kong",
+                "The back yard",
+                "Earth",
+                "London",
+                "The mall",
+                "Ryman Auditorium",
+                "The Great Wall of China"
             };
 
             // Print some output to the terminal (aka. "Console");
