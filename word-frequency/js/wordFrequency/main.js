@@ -3,6 +3,7 @@ function main() {
   const words = text.split(" ");
   const freqCounts = {};
 
+  console.log('words', words)
   for (const word of words) {
     if (word.trim() === "") {
       continue;

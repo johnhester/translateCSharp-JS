@@ -13,9 +13,9 @@ function main() {
       tables["Table 1"].push(guest);
     }
   }
-  
+
   for (const tableName of Object.keys(tables)) {
-    const tableGuests = tables[tableName]; 
+    const tableGuests = tables[tableName];
     console.log(tableName);
     for (const guest of tableGuests) {
       console.log(`${guest.name} (${guest.occupation}) ${guest.bio}`);
